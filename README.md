@@ -1,12 +1,16 @@
 # ctest
 
-I'm an app. Or maybe I'm a library? I haven't decided yet. 
-
-The choice is up to you!
+Minimal browser REPL setup using lein-cljsbuild
 
 ## Usage
 
-FIXME
+$ lein cljsbuild auto
+
+Then:
+
+$ lein trampoline cljsbuild repl-listen
+
+Navigate to index.html and load the page.
 
 ## License
 
